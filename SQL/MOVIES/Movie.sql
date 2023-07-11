@@ -9,7 +9,11 @@
 -----------------------------------------------------------------
 -- SELECT count(first_name) AS "Prénom" FROM actor WHERE first_name ILIKE 'a%' OR first_name ILIKE 'e%' OR first_name ILIKE 'i%' OR first_name ILIKE 'o%' OR first_name ILIKE 'u%' OR first_name ILIKE 'y%';
 -- Réponse : 24;
+-- OR SELECT count(first_name) AS "Prénom" FROM actor WHERE first_name SIMILAR TO '(A|E|I|O|U|Y)%';
 ----------------------------------------------------------------------
--- SELECT first_name, last_name FROM customer WHERE first_name ILIKE 'E%' AND address_id < 500 ORDER BY customer_id DESC LIMIT 1;
+-- SELECT CONCAT(first_name, ' ',last_name) AS "Résultat" FROM customer WHERE first_name ILIKE 'E%' AND address_id < 500 ORDER BY customer_id DESC LIMIT 1;
 -- Eddie
 ----------------------------------------------------------------------
+-- BONUS A FAIRE
+
+--------------------------------------------------------------------------------
