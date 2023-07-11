@@ -1,0 +1,15 @@
+-- SELECT count(category) AS "Category" FROM category; 
+-- Réponse : 16;
+---------------------------------------------------------------
+-- SELECT sum(amount) AS "Somme des locations" FROM payment;
+-- Réponse : 61312.04;
+---------------------------------------------------------------
+-- SELECT count(film) AS "Film" FROM film WHERE title LIKE 'J%';
+-- Réponse : 20;
+-----------------------------------------------------------------
+-- SELECT count(first_name) AS "Prénom" FROM actor WHERE first_name ILIKE 'a%' OR first_name ILIKE 'e%' OR first_name ILIKE 'i%' OR first_name ILIKE 'o%' OR first_name ILIKE 'u%' OR first_name ILIKE 'y%';
+-- Réponse : 24;
+----------------------------------------------------------------------
+-- SELECT first_name, last_name FROM customer WHERE first_name ILIKE 'E%' AND address_id < 500 ORDER BY customer_id DESC LIMIT 1;
+-- Eddie
+----------------------------------------------------------------------
