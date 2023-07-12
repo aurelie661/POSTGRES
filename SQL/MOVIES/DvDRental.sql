@@ -1,0 +1,28 @@
+-- SELECT staff_id, sum(amount)::MONEY
+-- FROM payment
+-- GROUP BY 1
+-- ORDER BY 2 DESC;
+----------------------------------------------------------------------------
+-- SELECT customer_id, count(payment_date)::numeric AS "nombre de paiement"
+-- FROM payment
+-- GROUP BY 1
+-- HAVING count(payment_date) > 40
+-- ORDER BY 2 DESC;
+----------------------------------------------------------------------------
+-- SELECT  rating, count(film_id) AS "film count", sum(length) AS "total visionnage"
+-- FROM film
+-- GROUP BY 1
+-- ORDER BY 2;
+----------------------------------------------------------------------------
+-- SELECT DISTINCT country_id, count(city) AS "City"
+-- FROM city
+-- GROUP BY 1
+-- ORDER BY 2;
+----------------------------------------------------------------------------
+-- SELECT actor_id, count(*) AS "nombre de film"
+-- FROM film_actor
+-- GROUP BY 1
+-- HAVING count(*) >= 30
+-- ORDER BY 2 DESC;
+
+----------------------------------------------------------------------------
