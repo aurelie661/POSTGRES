@@ -41,6 +41,7 @@
 
 -----------------------------------------------------------------------------
 -- SELECT concat(first_name,' ',last_name,' => ',birth_date) AS "employés de + de 60 ans" FROM employees WHERE birth_date < '1963-07-11';
+-- select CONCAT(first_name,' ' ,last_name) from employees where Extract(year from current_date) - 60 >= EXTRACT(year from birth_date) order by birth_date;
 -- réponse: 7 employés
 
 -----------------------------------------------------------------------------
