@@ -3,6 +3,7 @@
 
 -------------------------------------------------------------
 -- SELECT count(*) AS "Commandes" FROM orders WHERE order_date BETWEEN '1996-01-01' AND '1996-12-31';
+-- SELECT count(*) AS "Commandes" FROM orders WHERE date_part('year', order_date)= '1996';
 -- réponse: 152
 
 -----------------------------------------------------------------------------
@@ -13,8 +14,7 @@
 -- 		 4)Raclette Courdavault
 -- 		 5)Sirop d'érable
 -----------------------------------------------------------------------------
--- SELECT concat(ship_address,' ',ship_postal_code,' ',ship_city,' ',ship_country) AS "Commandes France" FROM orders WHERE
--- ship_country ILIKE 'france' ORDER BY ship_postal_code DESC;
+-- SELECT DISTINCT ship_address,ship_postal_code,ship_city,shSELECT * FROM
 -- réponse: 77
 
 -----------------------------------------------------------------------------
@@ -26,8 +26,8 @@
 -- réponse: 25 produits
 
 -----------------------------------------------------------------------------
-
-
+-- SELECT contact_name,phone FROM suppliers WHERE country = 'USA';
+-- réponse: 4
 -----------------------------------------------------------------------------
 -- SELECT product_name FROM products WHERE unit_price > 50;
 -- réponse: 7 produits
