@@ -1,0 +1,23 @@
+-- SELECT DISTINCT extract('year' FROM order_date) , count(*)
+-- FROM orders
+-- GROUP BY 1
+-- ORDER BY 2 DESC;
+-------------------------------------------------------------------------
+-- select customer_id, min(order_date) AS "Date première commande"
+-- from orders
+-- GROUP BY 1
+-- ORDER BY 2;
+-------------------------------------------------------------------------
+-- SELECT category_id, avg(unit_price * units_in_stock)::numeric::money AS "moyenns des prix de categories"
+-- FROM products
+-- GROUP BY 1
+-- ORDER BY 2 DESC;
+-------------------------------------------------------------------------
+-- SELECT category_id, SUM(unit_price * units_in_stock)::numeric::money AS "Valeurs total"
+-- FROM products
+-- ORDER BY 2 DESC;
+-- GROUP BY 1
+-- ORDER BY 2 DESC
+-- LIMIT 3;
+-------------------------------------------------------------------------
+-- SELECT * FROM products;
