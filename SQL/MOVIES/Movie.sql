@@ -14,6 +14,10 @@
 -- SELECT CONCAT(first_name, ' ',last_name) AS "Résultat" FROM customer WHERE first_name ILIKE 'E%' AND address_id < 500 ORDER BY customer_id DESC LIMIT 1;
 -- Eddie
 ----------------------------------------------------------------------
--- BONUS A FAIRE
+-- SELECT  customer_id, sum(amount)
+-- FROM payment
+-- WHERE staff_id = 2
+-- GROUP BY 1
+-- HAVING sum(amount) >= 110;
 
 --------------------------------------------------------------------------------
