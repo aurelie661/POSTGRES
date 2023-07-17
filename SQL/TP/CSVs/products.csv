@@ -1,0 +1,65 @@
+name;description;category_id;unit_price;units_in_stock
+iPhone 12;The iPhone 12 is a powerful and feature-packed smartphone.;14;999;50
+Samsung Galaxy S21;The Samsung Galaxy S21 is a flagship Android smartphone with a stunning display.;14;1099;25
+Sony PlayStation 5;The Sony PlayStation 5 is a next-gen gaming console with powerful hardware.;14;499;10
+Apple MacBook Pro;The Apple MacBook Pro is a high-performance laptop for professional users.;14;1799;15
+Canon EOS R5;The Canon EOS R5 is a full-frame mirrorless camera with exceptional image quality.;14;3799;20
+Bose QuietComfort 35 II;The Bose QuietComfort 35 II is a premium wireless noise-canceling headphone.;14;299;30
+Nike Air Max 90;The Nike Air Max 90 is a classic sneaker known for its comfort and style.;14;129;100
+Sony WH-1000XM4;The Sony WH-1000XM4 is a top-tier wireless noise-canceling headphone with excellent sound quality.;14;349;15
+Apple iPad Pro;The Apple iPad Pro is a powerful tablet for productivity and creative tasks.;14;999;20
+Sony Alpha A7 III;The Sony Alpha A7 III is a full-frame mirrorless camera with exceptional image quality and high-speed performance.;14;1999;12
+LG OLED65CXPUA;The LG OLED65CXPUA is a 65-inch OLED 4K TV with stunning visuals and smart features.;14;2199;8
+Dell XPS 13;The Dell XPS 13 is a compact and powerful laptop with a beautiful display and long battery life.;14;1299;18
+Samsung Galaxy Watch 4;The Samsung Galaxy Watch 4 is a feature-packed smartwatch with health and fitness tracking capabilities.;14;349;30
+Canon EF 50mm f/1.8 STM Lens;The Canon EF 50mm f/1.8 STM Lens is a versatile prime lens suitable for various photography genres.;14;129;40
+Apple;A sweet and crunchy fruit with various colors and flavors.;13;0.5;100
+Banana;A tropical fruit with a soft texture and a distinctive curved shape.;13;0.3;150
+Orange;A citrus fruit known for its juicy pulp and refreshing taste.;13;0.4;120
+Grapes;Small, sweet, and juicy berries that come in different colors.;13;0.6;80
+Strawberry;A small, red, and juicy fruit with a sweet flavor.;13;0.8;90
+Pineapple;A tropical fruit with a sweet and tangy taste, often used in desserts and savory dishes.;13;1.5;60
+Mango;A juicy tropical fruit known for its sweet and aromatic flesh.;13;1.2;70
+Watermelon;A large fruit with juicy, refreshing flesh and a high water content.;13;2.0;40
+Kiwi;A small fruit with a fuzzy brown exterior and bright green flesh.;13;0.7;100
+Peach;A soft fruit with a fuzzy skin and sweet, juicy flesh.;13;0.9;80
+Cinnamon;A fragrant spice derived from the bark of cinnamon trees.;12;1.5;100
+Turmeric;A vibrant yellow spice with a warm and earthy flavor.;12;2.0;80
+Paprika;A spice made from dried and ground red bell peppers.;12;1.2;120
+Cumin;A spice with a warm and nutty flavor, commonly used in various cuisines.;12;1.0;150
+Cardamom;A highly aromatic spice with a sweet and floral taste.;12;3.5;60
+Ginger;A pungent and spicy spice often used in both sweet and savory dishes.;12;1.8;90
+Nutmeg;A spice with a warm and sweet flavor, commonly used in baking and cooking.;12;2.2;70
+Coriander;A spice with a citrusy and slightly nutty flavor, commonly used in Indian cuisine.;12;1.4;100
+Cloves;A strongly aromatic spice with a warm and sweet taste.;12;2.5;80
+Black Pepper;A versatile spice with a pungent and slightly spicy flavor.;12;1.0;120
+Garden Spade;A tool with a flat blade used for digging and turning soil.;11;20.99;50
+Pruning Shears;A handheld tool used for trimming and pruning plants.;11;12.99;30
+Garden Fork;A tool with multiple tines used for loosening and turning soil.;11;18.99;40
+Gardening Gloves;Protective gloves designed to keep hands safe while working in the garden.;11;9.99;100
+Hedge Trimmer;A tool with sharp blades used for trimming and shaping hedges.;11;54.99;20
+Watering Can;A container with a handle and a spout used for watering plants.;11;15.99;60
+Trowel;A small handheld tool with a pointed blade used for planting and transplanting.;11;8.99;80
+Rake;A tool with a series of teeth or prongs used for collecting leaves and debris.;11;14.99;40
+Wheelbarrow;A small cart with one wheel used for transporting soil, plants, and other materials.;11;79.99;15
+Garden Hose;A flexible tube used for watering plants and cleaning outdoor spaces.;11;29.99;50
+Pencil;A writing instrument with a graphite core encased in wood.;10;0.5;200
+Notebook;A bound collection of paper sheets used for writing and taking notes.;10;2.0;100
+Eraser;A rubber or plastic tool used for removing pencil marks.;10;0.3;150
+Pen;A writing instrument with ink that is dispensed onto paper.;10;1.0;150
+Highlighter;A marker pen used to draw attention to specific text by highlighting it.;10;0.8;100
+Ruler;A straight measuring tool used for drawing straight lines and measuring lengths.;10;0.5;150
+Glue Stick;An adhesive in solid stick form used for paper and lightweight materials.;10;1.5;80
+Scissors;A tool with two blades used for cutting paper and other materials.;10;2.5;80
+Calculator;A device used for performing mathematical calculations.;10;10.0;30
+Backpack;A bag worn on the back for carrying books, supplies, and personal items.;10;20.0;50
+Croissant;A buttery and flaky pastry originating from France.;9;2.5;50
+Baguette;A long and crusty bread with a chewy interior.;9;1.5;100
+Cupcake;A small individual cake typically decorated with frosting and toppings.;9;2.0;80
+Muffin;A small, round baked good with a soft and moist texture.;9;1.8;100
+Chocolate Chip Cookie;A classic cookie made with chocolate chips and a soft or crispy texture.;9;1.2;120
+Cinnamon Roll;A sweet pastry with a spiral shape, filled with cinnamon and sugar.;9;2.8;60
+Sourdough Bread;A type of bread made with a fermented dough, resulting in a tangy flavor.;9;3.5;40
+Cheesecake;A rich and creamy dessert made with a sweetened cream cheese filling.;9;4.5;30
+Apple Pie;A pie with a sweet apple filling and a flaky crust.;9;5.0;25
+Brownie;A dense and fudgy chocolate dessert often with nuts or other additions.;9;1.5;90
