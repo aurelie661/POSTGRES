@@ -1,0 +1,21 @@
+street_number;street_name;postal_code;city;region;country
+123;Main Street;90210;Beverly Hills;California;United States
+456;Maple Avenue;M5V 2R3;Toronto;Ontario;Canada
+789;Abbey Road;NW8 9AY;London;;United Kingdom
+987;Rue de la Paix;75002;Paris;;France
+654;Alexanderplatz;10178;Berlin;;Germany
+321;Via Roma;00185;Rome;;Italy
+111;Avenida Paulista;01311-200;São Paulo;São Paulo;Brazil
+222;Calle de Alcalá;28001;Madrid;;Spain
+333;Champs-Élysées;75008;Paris;;France
+444;Nakameguro;150-0031;Tokyo;;Japan
+555;Princes Street;EH2 4AH;Edinburgh;;United Kingdom
+777;Nørrebrogade;2200;Copenhagen;;Denmark
+888;Grafton Street;D02 VY77;Dublin;;Ireland
+999;Kärntner Straße;1010;Vienna;;Austria
+666;Av. Presidente Masaryk;11550;Mexico City;Mexico City;Mexico
+222;Hauptstraße;10115;Berlin;;Germany
+888;Knez Mihailova;11000;Belgrade;;Serbia
+777;Kurfürstendamm;10707;Berlin;;Germany
+444;Rua Oscar Freire;01426-001;São Paulo;São Paulo;Brazil
+555;Tverskaya Street;125009;Moscow;;Russia
