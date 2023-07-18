@@ -122,9 +122,17 @@ CREATE VIEW add_pp AS (
 		
 
 -----------------------------------------------------------------------------------------------	
+CREATE VIEW pp_add AS (
+	SELECT concat(p.first_name,' ',p.last_name) AS habitant
+		FROM people p
+		INNER JOIN people_addresses pa ON pa.people_id = p.id
+		INNER JOIN addresses a ON a.id = pa.address_id
+		WHERE a.id IN(
+			SELECT p.id FROM add_pp
+		)
+)
 
-
-
+-----------------------------------------------------------------------------------------------	
 SELECT * FROM addresses;
 SELECT * FROM categories;
 SELECT * FROM people;
