@@ -36,7 +36,7 @@ CREATE TABLE products (
 	name VARCHAR(200) NOT NULL,
 	description VARCHAR NOT NULL,
 	category_id INT NOT NULL,
-	unit_price FLOAT NOT NULL,
+	unit_price DOUBLE PRECISION NOT NULL,
 	units_in_stock INT NOT NULL,
 	FOREIGN KEY (category_id) REFERENCES public.categories(id)
 );
@@ -83,17 +83,7 @@ UPDATE categories
 SET name = 'games'
 WHERE id = 17;
 -------------------------------------------------------------------------------------
-WITH units_of_categories AS (
-	SELECT c.name,AVG(p.units_in_stock)
-		FROM products p
-		INNER JOIN categories c ON p.category_id = c.id
-		GROUP BY 1
-		)SELECT p.name, AVG(p.units_in_stock)
-			FROM products p
-			WHERE p.units_in_stock < 2
-			GROUP BY 1;
-
-		
+	
 WITH units_of_categories AS(
 	SELECT c.name, c.id , AVG(p.units_in_stock) AS Moyenne_en_stock
 		FROM products p
@@ -105,19 +95,44 @@ WITH units_of_categories AS(
 			
 -----------------------------------------------------------------------------------------------
 
-
-SELECT (unit_price - 20) / 100 AS reduction
-			FROM products p	
-
-SELECT c.name AS name_category, p.name AS name_product, (p.unit_price - 20) / 100 AS reduction
-		FROM products p
-		INNER JOIN categories c ON c.id = p.category_id
-		WHERE c.id = 14 
-
+SELECT p.name, round((unit_price * 0.8)) AS prix_après_reduction
+	FROM products p
+	WHERE category_id = (
+		SELECT c.id AS id_category
+		FROM categories c
+		WHERE c.id = 14	
+	)
 	
-	
+-----------------------------------------------------------------------------------------------
+SELECT SPLIT_PART(email, '@', 2) AS Fournisseur_email, count(*)
+FROM people
+GROUP BY 1
+ORDER BY 2 DESC;
+
+-----------------------------------------------------------------------------------------------		
+
+CREATE VIEW add_pp AS (
+	SELECT concat(a.street_number,' ',a.street_name,' ',a.postal_code,' ',a.city,' ',a.region,' ',a.country) AS Addresses, count(*)
+		FROM people p
+		INNER JOIN people_addresses pa ON p.id = pa.people_id
+		INNER JOIN addresses a ON a.id = pa.address_id 
+		GROUP BY 1
+		ORDER BY 2 DESC
+		)
 		
 
+-----------------------------------------------------------------------------------------------	
+CREATE VIEW pp_add AS (
+	SELECT concat(p.first_name,' ',p.last_name) AS habitant
+		FROM people p
+		INNER JOIN people_addresses pa ON pa.people_id = p.id
+		INNER JOIN addresses a ON a.id = pa.address_id
+		WHERE a.id IN(
+			SELECT p.id FROM add_pp
+		)
+)
+
+-----------------------------------------------------------------------------------------------	
 SELECT * FROM addresses;
 SELECT * FROM categories;
 SELECT * FROM people;
